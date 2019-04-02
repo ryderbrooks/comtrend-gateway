@@ -1,0 +1,14 @@
+
+
+const enum CONVERSIONS {
+    BITS_PER_BYTE = 8,
+    BYTES_PER_KILOBYTE = 1024,
+    BYTES_PER_MEGABYTE = 1024*1024,
+    BPS_PER_KBPS = 1000,
+    MICROSECONDS_PER_SECOND = 1e6,
+}
+
+
+const enum BANDWIDTH_UNITS {
+    KBPS = 'Kbps',
+}
